@@ -1,7 +1,7 @@
 # Sarah Kemmerer
 
 ## About
-I am a second year User Experience and Interaction design student.
+I am a second year User Experience and Interaction Design student.
 
 ## Topic
 I will be creating a portfolio for co-op and professional use.
