@@ -1,0 +1,48 @@
+/* Type selectors - defaults for common elements */
+body {
+    /* body selector for the whole page */
+    background-color: lightyellow;
+}
+
+h1 {
+    color: green;
+}
+
+h2, h3 {
+    color: red;
+}
+
+p {
+    color: purple;
+}
+
+a {
+    color: orange;
+}
+
+/* Type + descendant */
+
+main p {
+    font-weight: bold;
+}
+
+/* Pseudo-class */
+nav a:hover {
+    color: blue;
+}
+
+nav a:focus-visible {
+    outline: 2px solid blue;
+}
+
+
+
+p.callout {
+    border: 8px solid darkblue;
+}
+
+/* ID selector */
+
+#sightings {
+    border: 5px solid grey;
+}
