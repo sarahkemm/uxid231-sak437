@@ -1,48 +1,64 @@
 /* Type selectors - defaults for common elements */
 body {
     /* body selector for the whole page */
-    background-color: lightyellow;
+    background-color: white;
+    /* base text for the whole site */
 }
 
 h1 {
-    color: green;
+    /* all heading the same color */
 }
 
 h2, h3 {
-    color: red;
-}
-
-p {
-    color: purple;
+   /* shared heading style */
 }
 
 a {
-    color: orange;
+    /* default link style */
 }
 
-/* Type + descendant */
-
-main p {
-    font-weight: bold;
+p {
+    /* all paragraphs the same style */
 }
 
-/* Pseudo-class */
+/* 2. Combinators */
+nav a {
+    /* nav links look different from body links */
+}
+
+footer p {
+    /* footer text is smaller than body text */
+}
+
+/* 3. Class selectors */
+.project-card {
+    /* card surface for project previews */
+}
+
+.button {
+   /* link styled as button */
+}
+
+/* 4. Combinators involving classes */
+.project-card h3 {
+    /* project title inside a card */
+}
+
+nav a.current {
+    /* marks the page you are currently on */
+}
+
+/* 5. ID selector */
+
+#hero {
+    /* large intro block on the home page only */
+}
+
+/* 6. Interactive states */
 nav a:hover {
-    color: blue;
+    /* hover state response from mouse for nav links */
 }
 
 nav a:focus-visible {
-    outline: 2px solid blue;
-}
-
-
-
-p.callout {
-    border: 8px solid darkblue;
-}
-
-/* ID selector */
-
-#sightings {
-    border: 5px solid grey;
+    /* focus indicator for keyboard users */
 }
