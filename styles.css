@@ -1,12 +1,15 @@
+:root {
+    --color-background: white;
+}
 /* Type selectors - defaults for common elements */
 body {
     /* body selector for the whole page */
-    background-color: white;
+    background-color: var(--color-background);
     /* base text for the whole site */
 }
 
 h1 {
-    /* all heading the same color */
+    /* all heading the same */
 }
 
 h2, h3 {
