@@ -1,5 +1,7 @@
 :root {
     --color-background: white;
+    --color-text: black;
+    --color-hover: grey;
 }
 /* Type selectors - defaults for common elements */
 body {
@@ -10,27 +12,45 @@ body {
 
 h1 {
     /* all heading the same */
+    color: var(--color-text);
 }
 
-h2, h3 {
+h2 {
    /* shared heading style */
+   color: var(--color-text);
+}
+
+h3 {
+    color: var(--color-text);
+}
+
+h4 {
+    color: var(--color-text);
+}
+
+h5 {
+ color: var(--color-text);
 }
 
 a {
     /* default link style */
+    color: var(--color-text);
 }
 
 p {
     /* all paragraphs the same style */
+    color: var(--color-text);
 }
 
 /* 2. Combinators */
 nav a {
-    /* nav links look different from body links */
+    /* nav links look the same as body links? */
+    color: var(--color-text);
 }
 
 footer p {
     /* footer text is smaller than body text */
+    color: var(--color-text);
 }
 
 /* 3. Class selectors */
@@ -40,6 +60,7 @@ footer p {
 
 .button {
    /* link styled as button */
+   
 }
 
 /* 4. Combinators involving classes */
@@ -60,8 +81,10 @@ nav a.current {
 /* 6. Interactive states */
 nav a:hover {
     /* hover state response from mouse for nav links */
+    color: var(--color-hover);
 }
 
 nav a:focus-visible {
     /* focus indicator for keyboard users */
+    color: var(--color-hover);
 }
