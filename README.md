@@ -8,3 +8,6 @@ I will be creating a portfolio for co-op and professional use.
 
 ## AI Policy
 Allowed during development between check-ins; declare any AI tools you used in your README.md per the course AI Policy. NOT allowed during the check-in itself — you explain your own work in your own words.
+
+Other resources:
+https://www.youtube.com/watch?v=ub5ngVE4yq0
