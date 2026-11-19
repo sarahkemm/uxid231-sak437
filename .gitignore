@@ -1,3 +1,5 @@
 .DS_Store
 graphics/
 node_modules/
+fonts/
+class_examples/
